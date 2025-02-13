@@ -1,12 +1,11 @@
-<div style="text-align: center;height: 100%;margin: 0;align-content: center;">
-  <img src="/img/2.png" alt="Stultifera navis" width="500" style="margin: 0; filter: opacity(0.2);"/>
-</div>
-<div class="center flex" style="text-align: end;">
-  <img src="/img/Narrenschiff_(1549).jpg" alt="Stultifera navis" width="400" style="border-color: #333; border-style: solid;"/>
+<div class="flex responsive-div" style="position: relative; text-align: end;">
+  <div>
+    <img src="/img/Narrenschiff_(1549).jpg" alt="Stultifera navis"  style="border-color: #333; width: 100%;"/>
+  </div>
   <span style="margin: 5px 0px 5px 0px; font-weight: 200;">
     PROFEGTION
   </span>
-  <span style="margin-top: 5px; text-wrap: wrap;">
+  <span class="f-responsive" style="margin-top: 5px; text-wrap: wrap;">
     <i>FINEM MUNDI VENIT IN LUNA DECIMA DIE PASCHAE CUM SOL ARDET AGRUM ET SAL MARI PORTA.</i>
   </span>
   <span style="margin-top: 5px;">
@@ -14,10 +13,8 @@
   </span>
 </div>
 
-<div class="flex-row bottom" style="justify-self: anchor-center;">
-  <div>
-    asdadsdas
-  </div>
+<div class="flex-row bottom" style="justify-self: anchor-center;font-size: 14px;font-weight: 200;">
+  <div style="text-align: center;" [innerHTML] = "author"></div>
 </div>
 
 <router-outlet />
