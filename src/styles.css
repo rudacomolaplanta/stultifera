@@ -7,13 +7,20 @@ html{
 }
 
 body{
+    margin: 0;
     background-color: #ffffff;
+    height: 100%;
+    vertical-align: center;
 }
 
 .center{
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 200px);
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+    width: 400px;
+    height: 300px;
 }
 
 .flex{
@@ -21,4 +28,15 @@ body{
     flex-direction: column;
     column-fill: balance;
     align-items: flex-end;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    column-fill: balance;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
 }
