@@ -1,0 +1,24 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.center{
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    column-fill: balance;
+    align-items: flex-end;
+}
